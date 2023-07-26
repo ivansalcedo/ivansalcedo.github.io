@@ -10,6 +10,18 @@ jQuery(document).ready(function($) {
         $('#preloader').delay(200).fadeOut('slow');
         $('.wrapper').fadeIn(200);
         $('#custumize-style').fadeIn(200);
+
+
+        $('.skillbar').each(function() {
+            $(this).find('.skillbar-bar').width(0);
+        });
+
+        $('.skillbar').each(function() {
+            $(this).find('.skillbar-bar').animate({
+                width: $(this).attr('data-percent')
+            }, 2000);
+        });
+
     });
 
     /* ---------------------------------------------------------------------- */

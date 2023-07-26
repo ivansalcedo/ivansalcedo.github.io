@@ -3,11 +3,6 @@
 ----------------------- Base styles ----------------
 ---------------------------------------------------*/
 
-h6 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 @media (min-width: 1200px) {
     .container {
         width: 1130px !important;
@@ -1087,7 +1082,7 @@ ul.about {
     .widget-profil h1 {
         font-size: 20px;
         line-height: 25px;
-        margin-top: 40px;
+        margin-top: 25px;
 
     }
 }
@@ -1101,10 +1096,11 @@ ul.about {
         font-size: 20px;	
     }
 
+    
     .widget-profil h1 {
         font-size: 18px;
         line-height: 25px;
-        margin-top: 75px;
+        margin-top: 40px;
     }
 
 }
@@ -1173,15 +1169,10 @@ ul.about {
 
 @media only screen and (min-width : 766px) and (max-width: 800px) {
     .widget-profil{ 	
-        height: 180px !important;
-        margin-bottom: 10px !important;;
-        padding-bottom: 20px;
-        margin-top : 0px !important;;
+        height: 210px !important;
+        margin-bottom: 20px;
         float: none;
-
     }
-
-    
     #profile_social {
         display: none;
     }
@@ -1202,8 +1193,6 @@ ul.about {
         
  */
     }
-
-
 }
 
 @media only screen and (min-width : 550px) and (max-width : 991px) {
@@ -1216,28 +1205,21 @@ ul.about {
 @media only screen and (min-width : 800px) and (max-width : 991px) {
 
     .widget-profil{ 	
-        height: 180px !important;	
-        margin-bottom: 10px !important;
-        margin-top: 0px !important;
+        height: 210px !important;	
+        margin-bottom: 20px;
         float: none;
     }
-
+/*
     #profile_social {
         display: none;
     }
+*/    
     #profile_desc {
         border-bottom: 0 !important;
     }
 
     #profile_theme {
         display: none;
-    }
-
-    .widget-profil .image-holder {
-
-        margin : 0px;
-        height: 100px;
-        width: 100px;
     }
 }
 
@@ -1319,97 +1301,25 @@ ul.about {
 #resume .col-md-6 span.duration {
     float: right;
 }
-
-#profile .col-md-6 span.duration {
-    float: right;
-}
-
-#portfolio .col-md-6 span.duration {
-    float: right;
-}
-
 #resume .col-md-6 ul li {
     list-style: none;
     margin-top: 20px;
 }
-
-
-#profile .col-md-6 ul li {
-    list-style: none;
-  /*  margin-top: 20px;*/
-}
-
-#portfolio .col-md-6 ul li {
-    list-style: none;
- /*   margin-top: 20px;*/
-}
-
 #resume .resume-left ul li h5 {
-    padding-bottom: 5px;
-}
-
-#profile .resume-left ul li h5 {
-    padding-bottom: 5px;
-    margin: 0;
-}
-
-#portfolio .resume-left ul li h5 {
-    padding-bottom: 7px;
-    margin: 0;
+    padding-bottom: 10px;
 }
 
 #resume .attributes li.first{
     margin-top: 0 !important;
 }
 
-#profile .attributes li.first{
-    margin-top: 0 !important;
-    margin-bottom: 20px;
-}
-
-#portfolio .attributes li.first{
-    margin-top: 0 !important;
-    margin-bottom: 20px;
-}
-
 #resume .attributes .duration i{
-    margin-right: 5px;
-}
-
-#profile .attributes .duration i{
-    margin-right: 5px;
-}
-
-#portfolio .attributes .duration i{
     margin-right: 5px;
 }
 
 #resume h5,
 #resume h6 {
     font-weight:400 !important;
-}
-
-#profile h5,
-#profile h6 {
-    font-weight:400 !important;
-}
-
-#portfolio h5,
-#portfolio h6 {
-    font-weight:400 !important;
-}
-
-#profile h6 {
-    padding-top: 5px;
-    /*margin-top: 0px;
-    padding-top: 5px;*/
-}
-
-
-#portfolio h6 {
-    padding-top: 5px;
-    /*margin-top: 0px;
-    padding-top: 5px;*/
 }
 
 .img_reference {
@@ -2582,7 +2492,7 @@ ul.info-post li {
     }
 
     .attributes h5 {
-        font-size: 12px;
+        font-size: 13px;
     }
     .text_content {
         font-size: 10px;
@@ -2830,8 +2740,7 @@ select {
 }
 
 li h6{
-    font-size: 12px;
-    font-style: italic;
+    font-size: 13px;
 }
 .panel{
     border:none !important;	
