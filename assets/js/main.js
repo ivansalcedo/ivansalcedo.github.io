@@ -177,7 +177,8 @@ jQuery(document).ready(function($) {
     $contactform.submit(function() {
         $.ajax({
             type: "POST",
-            url: "php/contact.php",
+            /*url: "http://199.38.241.61/contact.php",*/
+            url: "contact.php",
             data: $(this).serialize(),
             success: function(msg)
             {
