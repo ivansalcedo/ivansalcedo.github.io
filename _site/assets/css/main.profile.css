@@ -1333,15 +1333,14 @@ ul.about {
     margin-top: 20px;
 }
 
-
 #profile .col-md-6 ul li {
     list-style: none;
-  /*  margin-top: 20px;*/
+    margin-top: 20px;
 }
 
 #portfolio .col-md-6 ul li {
     list-style: none;
- /*   margin-top: 20px;*/
+    margin-top: 20px;
 }
 
 #resume .resume-left ul li h5 {
@@ -1349,7 +1348,7 @@ ul.about {
 }
 
 #profile .resume-left ul li h5 {
-    padding-bottom: 5px;
+    padding-bottom: 7px;
     margin: 0;
 }
 
@@ -1394,20 +1393,20 @@ ul.about {
     font-weight:400 !important;
 }
 
-#portfolio h5,
-#portfolio h6 {
-    font-weight:400 !important;
-}
-
 #profile h6 {
-    padding-top: 5px;
+    padding-top: 7px;
     /*margin-top: 0px;
     padding-top: 5px;*/
 }
 
 
+#portfolio h5,
 #portfolio h6 {
-    padding-top: 5px;
+    font-weight:400 !important;
+}
+
+#portfolio h6 {
+    padding-top: 7px;
     /*margin-top: 0px;
     padding-top: 5px;*/
 }

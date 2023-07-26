@@ -34,12 +34,22 @@ a {
 #contactform .submit:hover, #comment_form .submit:hover {
     webkit-filter: brightness(98%) !important;
 }
-#profile .col-md-5 h2, #profile .col-md-5 h4, #resume .col-md-6 p, #resume .col-md-6 span.duration {
+
+#profile .col-md-5 h2, #profile .col-md-5 h4, #profile .col-md-6 p, #profile .col-md-6 span.duration {
     color: #3B5998;
+    text-align: right;
 }
+
 #resume .resume-left ul li h5 {
     border-bottom: 1px solid #3B5998;
 }
+
+#profile .resume-left ul li h5 {
+    /*border-bottom: 1px solid #3B5998;*/
+    border-bottom: 1px solid #ccc;
+    margin: 2;
+}
+
 .attributes span.glyphicon, .attributes h6 {
     color: #3B5998;
 }

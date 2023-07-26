@@ -3,6 +3,11 @@
 ----------------------- Base styles ----------------
 ---------------------------------------------------*/
 
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 @media (min-width: 1200px) {
     .container {
         width: 1130px !important;
@@ -1314,25 +1319,97 @@ ul.about {
 #resume .col-md-6 span.duration {
     float: right;
 }
+
+#profile .col-md-6 span.duration {
+    float: right;
+}
+
+#portfolio .col-md-6 span.duration {
+    float: right;
+}
+
 #resume .col-md-6 ul li {
     list-style: none;
     margin-top: 20px;
 }
+
+
+#profile .col-md-6 ul li {
+    list-style: none;
+  /*  margin-top: 20px;*/
+}
+
+#portfolio .col-md-6 ul li {
+    list-style: none;
+ /*   margin-top: 20px;*/
+}
+
 #resume .resume-left ul li h5 {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+#profile .resume-left ul li h5 {
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+#portfolio .resume-left ul li h5 {
+    padding-bottom: 7px;
+    margin: 0;
 }
 
 #resume .attributes li.first{
     margin-top: 0 !important;
 }
 
+#profile .attributes li.first{
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+}
+
+#portfolio .attributes li.first{
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+}
+
 #resume .attributes .duration i{
+    margin-right: 5px;
+}
+
+#profile .attributes .duration i{
+    margin-right: 5px;
+}
+
+#portfolio .attributes .duration i{
     margin-right: 5px;
 }
 
 #resume h5,
 #resume h6 {
     font-weight:400 !important;
+}
+
+#profile h5,
+#profile h6 {
+    font-weight:400 !important;
+}
+
+#portfolio h5,
+#portfolio h6 {
+    font-weight:400 !important;
+}
+
+#profile h6 {
+    padding-top: 5px;
+    /*margin-top: 0px;
+    padding-top: 5px;*/
+}
+
+
+#portfolio h6 {
+    padding-top: 5px;
+    /*margin-top: 0px;
+    padding-top: 5px;*/
 }
 
 .img_reference {
@@ -2505,7 +2582,7 @@ ul.info-post li {
     }
 
     .attributes h5 {
-        font-size: 13px;
+        font-size: 12px;
     }
     .text_content {
         font-size: 10px;
@@ -2753,7 +2830,8 @@ select {
 }
 
 li h6{
-    font-size: 13px;
+    font-size: 12px;
+    font-style: italic;
 }
 .panel{
     border:none !important;	
