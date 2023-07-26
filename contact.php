@@ -1,5 +1,5 @@
 <?php
-    header("Access-Control-Allow-Origin: *");
+    
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $name = $_POST['contact-name'];
@@ -12,4 +12,8 @@
         echo "Solo por post mi estimado " . $_GET['contact-name'];
     }
 
+    $data = [ 'status' => 'OK'];
+    header("Access-Control-Allow-Origin: *");
+    header('Content-type: application/json');
+    echo json_encode( $data );
 ?>

@@ -185,6 +185,7 @@ jQuery(document).ready(function($) {
             contenType: 'application/json',
             success: function(msg)
             {
+                /*
                 var msg_error = msg.split(",");
                 var output_error = '';
 
@@ -238,11 +239,20 @@ jQuery(document).ready(function($) {
                             + '</div>';
 
                 }
+                */
+
+                response = '<div class="alert alert-success success-send">' +
+                '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
+                '<i class="glyphicon glyphicon-ok" style="margin-right: 5px;"></i> ' + $success + '</div>';
+
                 // Hide any previous response text
                 $(".error-send,.success-send").remove();
                 // Show response message
                 $contactform.prepend(response);
-            }
+            },
+            error: function(XMLHttpRequest, textStatus, errorThrown) { 
+                alert("Status: " + textStatus); alert("Error: " + errorThrown); 
+            }   
         });
         return false;
     });
