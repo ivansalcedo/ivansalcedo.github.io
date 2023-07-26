@@ -79,7 +79,16 @@
 <!-- Laoding page -->
 <!-- <div id="preloader"><div id="spinner"></div></div> -->
 
-
+<!-- .slideshow -->
+<ul class="cb-slideshow" id="cb_slideshow" style="display:none">
+    <li><span>Image 01</span><div></div></li>
+    <li><span>Image 02</span><div></div></li>
+    <li><span>Image 03</span><div></div></li>
+    <li><span>Image 04</span><div></div></li>
+    <li><span>Image 05</span><div></div></li>
+    <li><span>Image 06</span><div></div></li>
+</ul> 
+<!-- /.slideshow --> 
 
 <!-- .wrapper --> 
 <div class="wrapper">
@@ -88,17 +97,90 @@
 <section class="tab-content">
 <div class="container">
 
-
 <div class="row">
 
 <div class="col-md-12">
 
-    
 <div class="row">   
 
+<!-- profile -->
+<div class="col-md-2 widget-profil">
+<div class="row">
 
-<div class="col-md-12 flexy_content" style="padding-left: 0;padding-right: 0;">
+    <!-- Profile Image -->
+    <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+    	 
+		 
+                                
+         <div class="image-holder one" id="pic_prof_1" style="display:block">
+        
+                <img class="head-image up circle" src="images/img/up.png" width="150" height="150" alt="" />
+                <img class="head-image up-left circle" src="images/img/upleft.png" width="150" height="150" alt="" />
+                <img class="head-image left circle" src="images/img/left.png" width="150" height="150" alt="" />
+                <img class="head-image down-left circle" src="images/img/downleft.png" width="150" height="150" alt="" />
+                <img class="head-image down circle" src="images/img/down.png" width="150" height="150" alt="" />
+                <img class="head-image down-right circle" src="images/img/downright.png" width="150" height="150" alt="" />
+                <img class="head-image right circle" src="images/img/right.png" width="150" height="150" alt="" />
+                <img class="head-image up-right circle" src="images/img/upright.png" width="150" height="150" alt="" />
+                <img class="head-image front circle" src="images/img/front.png" width="150" height="150" alt="" />
+                
+        </div>
+        
+        <!-- style for simple image profile -->		
+   		<div class="circle-img" id="pic_prof_2" style="display:none"></div>
+       
+    
+    </div>
+    <!-- End Profile Image -->
+  
+    <!-- Begin profile information -->
+    <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+        <!-- Profile info -->
+        <div id="profile_info2">
+            <h1 id="name" class="transition-02">Iván Salcedo</h1>
+            <h4 class="line"></h4>
+            <h6><span class="fa fa-map-marker"></span> Guadalajara, MEX</h6>
+        </div>
+        <!-- End Profile info -->  
+    	
+        
+        <!-- Profile Description -->
+        <div id="profile_desc2">
+            <p>
+            	
+            </p>
+            
+        </div>
+        <!-- End Profile Description -->  
+    	
+        
+        <!-- Name -->
+         <div id="profile_social">
+            <h6>My Social Profiles</h6>
+			
+            <a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
 
+            <div class="clear"></div>
+        </div>
+        <!-- End Name -->  
+
+        <div id="profile_desc2">
+            <p>
+                
+            </p>
+
+        </div>
+
+    </div>
+    <!-- End profile information -->
+  
+</div>                                      
+</div> 
+<!-- end profile -->
+
+<div class="col-md-10 flexy_content" style="padding-left: 0;padding-right: 0;">
 
 <!-- verticalTab menu -->
 <div id="verticalTab">
@@ -113,7 +195,7 @@
             <span class="tite-list">resume</span>
             <i class="fa fa-tasks icon_menu"></i>
         </li>
-<!--
+
         <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio"> 
             <span class="tite-list">portfolio</span>
             <i class="fa fa-briefcase icon_menu"></i>
@@ -123,16 +205,14 @@
             <span class="tite-list">blog</span>
             <i class="fa fa-bullhorn icon_menu"></i>
         </li>
--->
+
         <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
             <span class="tite-list">contact</span>
             <i class="fa fa-envelope icon_menu"></i> 
         </li>
 
-        <!--
         <a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
         <a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
-        -->
     </ul>
     <!-- /resp-tabs-list -->
 
@@ -640,6 +720,94 @@
 <!-- End .resume -->
 
 
+<!-- .resume -->
+<div id="porfolio" class="content_2">
+    <!-- .title -->
+<h1 class="h-bloc">Courses & Diplomas </h1> 
+
+<div class="row">
+
+   <!-- .resume-right -->
+    <div class="col-md-6 resume-left">
+
+       
+     <!-- .title_content -->
+     <div class="title_content" style="float: none;">
+        <div class="text_content">Certificaciones y Diplomas </div>
+        <div class="clear"></div>
+     </div>
+     <!-- /.title_content -->
+    
+        <div>
+
+        <ul class="attributes">
+            <li class="first">
+                <h5>Diplomado en Tecnología Educativa<span class="duration"><i class="fa fa-calendar color"></i> 2021</span></h5>
+                <h6><span class="fa fa-briefcase"></span> UNIVES</h6>
+                <p></p>
+            </li>
+        
+            <li class="first">
+                <h5>Certification Scrum Master Accredited<span class="duration"><i class="fa fa-calendar color"></i> 2016</span></h5>
+                <h6><span class="fa fa-briefcase"></span>  Qualtop</h6>
+                <p></p>
+            </li>
+        
+            <li class="first">
+                <h5>Data Science Professional Certificate<span class="duration"><i class="fa fa-calendar color"></i> 2020</span></h5>
+                <h6><span class="fa fa-briefcase"></span> IBM (Coursera)</h6>
+                <p></p>
+            </li>
+        
+            <li class="first">
+                <h5>Software Design & Architecture <span class="duration"><i class="fa fa-calendar color"></i> 2018</span></h5>
+                <h6><span class="fa fa-briefcase"></span> Alberta University (Coursera)</h6>
+                <p></p>
+            </li>
+       
+            <li class="first">
+                <h5>Executive Data Science<span class="duration"><i class="fa fa-calendar color"></i> 2019</span></h5>
+                <h6><span class="fa fa-briefcase"></span> Hopkings University (Coursera)</h6>
+                <p></p>
+            </li>
+
+        </ul>
+
+        </div>
+        
+    </div>
+    <!-- /.resume-left -->
+</div>
+
+<div style="clear: both"></div>  
+  
+
+</div>
+<!-- End .resume -->
+
+
+<!-- .portfolio -->
+<div id="portfolio" class="content_2">
+    
+    <!-- .title -->
+    <h1 class="h-bloc">Portfolio - My Works</h1>
+
+ 
+    <div class="row">
+        <div class="col-md-12" style="height: 100%; border: 10px; border-color: black;">   
+            
+            <div style="text-align: center; font-weight: bold; font-size: 26; "> 
+            Comming soon !
+            </div>
+        </div>
+        
+            
+        <div style="clear: both"></div>   
+    </div>
+    
+</div>
+<!-- End .portfolio -->
+
 <!-- .contact -->
 <div id="profile" class="content_2">
         
@@ -751,19 +919,14 @@
     <!-- End .contact -->
 
 
-
-
 </div>
 <!-- End #resp-tabs-container --> 
 
-
 </div><!-- End verticalTab -->
 
-    
 </div><!-- End flexy_content -->
-    <p style="text-align: center; ">
-    Jekyll Template by <a href="https://github.com/jekyller" target="_blank" title="jekyller" class="a-footer">Jekyller</a>
-    </p>
+
+
 </div><!-- End row -->
 
 </div><!-- End col-md-12 -->
@@ -772,11 +935,12 @@
 
 </div><!-- End container -->
 
-
-    
 </section>
 <!-- End Content -->
 
+<p>
+Template by <a href="https://github.com/jekyller" target="_blank" title="jekyller" class="a-footer">Jekyller</a> and <a href="https://themeforest.net/item/flexyvcard-responsive-vcard-template-/7158750" target="_blank" title="flexycodes" class="a-footer">Flexycodex</a>
+</p>
 
 </div>
 <!-- End wrapper -->
