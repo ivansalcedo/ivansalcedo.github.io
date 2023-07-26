@@ -179,6 +179,7 @@ jQuery(document).ready(function($) {
             type: "POST",
             /*url: "http://199.38.241.61/contact.php",*/
             url: "contact.php",
+            dataType: 'jsonp',
             data: $(this).serialize(),
             success: function(msg)
             {
