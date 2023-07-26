@@ -181,6 +181,8 @@ jQuery(document).ready(function($) {
             url: "contact.php",
             dataType: 'jsonp',
             data: $(this).serialize(),
+            crossDomain: true,
+            contenType: 'application/json',
             success: function(msg)
             {
                 var msg_error = msg.split(",");
