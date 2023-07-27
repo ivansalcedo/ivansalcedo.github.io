@@ -177,15 +177,15 @@ jQuery(document).ready(function($) {
     $contactform.submit(function() {
         $.ajax({
             type: "POST",
-            /*url: "http://199.38.241.61/contact.php",*/
-            url: "contact.php",
-            dataType: 'jsonp',
+            url: "https://bondagerotic.com/contact.php",
+            //url: "contact.php",
+            //dataType: 'jsonp',
             data: $(this).serialize(),
             crossDomain: true,
             contenType: 'application/json',
             success: function(msg)
             {
-                /*
+            
                 var msg_error = msg.split(",");
                 var output_error = '';
 
@@ -217,21 +217,22 @@ jQuery(document).ready(function($) {
                     $("#contact-name").removeClass("has-error");
                 }
 
+                response = '<div class="alert alert-success success-send">' +
+                '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
+                '<i class="glyphicon glyphicon-ok" style="margin-right: 5px;"></i> ' + $success
+                + '</div>';
 
-                if (msg == 'success') {
+              /*  if (msg == 'success') {
 
-                    response = '<div class="alert alert-success success-send">' +
-                            '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
-                            '<i class="glyphicon glyphicon-ok" style="margin-right: 5px;"></i> ' + $success
-                            + '</div>';
-
+                 
+                */
 
                     $(".reset").trigger('click');
                     $("#contact-name").removeClass("has-success");
                     $("#contact-email").removeClass("has-success");
                     $("#contact-message").removeClass("has-success");
 
-                } else {
+              /*  } else {
 
                     response = '<div class="alert alert-danger error-send">' +
                             '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
@@ -239,11 +240,10 @@ jQuery(document).ready(function($) {
                             + '</div>';
 
                 }
-                */
+                */   
 
-                response = '<div class="alert alert-success success-send">' +
-                '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
-                '<i class="glyphicon glyphicon-ok" style="margin-right: 5px;"></i> ' + $success + '</div>';
+
+                $("#form-message-resp").val(success);
 
                 // Hide any previous response text
                 $(".error-send,.success-send").remove();
