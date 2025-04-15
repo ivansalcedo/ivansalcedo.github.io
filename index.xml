@@ -1,1 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ivan Salcedo Website</title><link>/</link><description>Recent content on Ivan Salcedo Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Skills</title><link>/skills/_index-copy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/skills/_index-copy/</guid><description> DEVELOPMENT SKILLS Skill Level Languages : Python, Groovy, C#, Kotlin, JavaScript/TypeScript, PHP, Java Expert Frameworks : Grails, Micronaut, Flask, ASP Core/MVC, Django, Leaf PHP, Laravel/Lumen, Spring Boot, Node JS Expert FrontEnd Tools: HTML5, Bootstrap, JQuery, Svelt Advanced Mobile Frameworks: Framework 7 (Svelt), Svelt Native, React Native, Android SDK Advanced CMS &amp; Documentation : Grav, Hugo, Docusaurus, Jekyll Advanced Databases : SQL Server, PostgreSQL, MySQL, NoSQL (Redis, Mongo) Expert Development Methodologies : SCRUM, Kanban, Atlassian Suite, TDD, ICONIX Advanced Reporters: Jasper Report, Telerik Report, Crystal Reports Expert MATH &amp; EDUCATION SKILLS Skill Level Mathematics : Probability &amp; Statistics, Linear Algebra, Diferential Calculus, Discrete Math, Latex/Katex, Geogebra, Desmos, Scipy, SymPy, Octave Advanced Education: STEAM, Alternative Education, ELearning LMS (Canvas LMS, Moodle) Advanced DATA SCIENCE &amp; ML SKILLS Skill Level Data Science : Pandas, PySpark, Knime, Apache Hive, Numpy, R Advanced Data Visualization &amp; BI : Dash, Superset, Plotly, Seaborn, Matplotlib, Tableau Advanced Machine &amp; Deep Learning : Scikit-Learn, Spark MLlib, NLKT, Keras Medium INFORMATION TECHNOLOGY SKILLS Skill Level DevOps &amp; Clouding: Docker, MicroServices, Kubernates, AWS, GitOps, CI/CD, Azure, IBM Advanced OS and Web Servers : NGINX, Tomcat, IIS Server, Ubuntu, Centos, Apache Server Advanced Enterprise Architecture &amp; Model: Archimate, UML, BPM, TOGAF Advanced Network &amp; Internet of Things : LAN, AWS IoT, Raspberry Medium</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ivan Salcedo Website</title><link>/</link><description>Recent content on Ivan Salcedo Website</description><generator>Hugo</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Skills</title><link>/skills/_index-copy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/skills/_index-copy/</guid><description>&lt;div class="row items-top justify-center">
+ &lt;div
+ class="mb:md-0 md:col-6 lg:col-6 mb-4" style="margin-rigth:20">
+ &lt;h5 class="mb-4">
+ DEVELOPMENT SKILLS
+ &lt;/h5> 
+ &lt;table class="table table-striped">
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Skill&lt;/th>
+ &lt;th>Level&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody> 
+ &lt;tr> 
+ &lt;td>&lt;h6>Languages :&lt;/h6> &lt;b>Python, Groovy, C#, Kotlin, JavaScript/TypeScript&lt;/b>, &lt;i>PHP, Java &lt;/i>&lt;/td>
+ &lt;td>Expert &lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td> &lt;h6>Frameworks :&lt;/h6> &lt;b> Grails, Micronaut, Flask, ASP Core/MVC, Django, Leaf PHP, Laravel/Lumen, &lt;/b> &lt;i> Spring Boot, Node JS &lt;/i>
+ &lt;/td>
+ &lt;td>Expert&lt;/td>
+ &lt;tr>
+ &lt;td>&lt;h6>FrontEnd Tools: &lt;/h6> &lt;b>HTML5, Bootstrap, JQuery, Svelt&lt;/b>&lt;i>&lt;/i> &lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;h6>Mobile Frameworks: &lt;/h6> &lt;b> Framework 7 (Svelt), Svelt Native&lt;/b>&lt;i>, React Native, Android SDK &lt;/i> &lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;h6>CMS &amp; Documentation : &lt;/h6> &lt;b>Grav, Hugo&lt;/b>&lt;i>, Docusaurus, Jekyll&lt;/i> &lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;h6>Databases : &lt;/h6> &lt;b>SQL Server, PostgreSQL, MySQL&lt;/b>&lt;i>, NoSQL (Redis, Mongo)&lt;/i> &lt;/td>
+ &lt;td>Expert&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;h6>Development Methodologies : &lt;/h6> &lt;b>SCRUM, Kanban, Atlassian Suite, &lt;/b>&lt;i> TDD, ICONIX &lt;/i> &lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;h6>Reporters: &lt;/h6> &lt;b>Jasper Report, Telerik Report, Crystal Reports&lt;/b> &lt;/td>
+ &lt;td>Expert&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+ &lt;/table> 
+ &lt;h5 class="mb-4">
+ MATH &amp; EDUCATION SKILLS
+ &lt;/h5> 
+ &lt;table class="table table-striped">
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Skill&lt;/th>
+ &lt;th>Level&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody> 
+ &lt;tr>
+ &lt;td>&lt;h6>Mathematics : &lt;/h6> &lt;b>Probability &amp; Statistics, Linear Algebra, Diferential Calculus, Discrete Math, Latex/Katex, Geogebra, Desmos, &lt;/b>&lt;i>Scipy, SymPy, Octave&lt;/i>&lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr> 
+ &lt;/tr>
+ &lt;td>&lt;h6>Education: &lt;/h6> &lt;b> STEAM, Alternative Education, &lt;/b>&lt;i>&lt;/i>ELearning LMS (Canvas LMS, Moodle)&lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr> 
+ &lt;/tbody>
+ &lt;/table> 
+ &lt;p class="mb-8 text-lg"> 
+ &lt;/p></description></item></channel></rss>
