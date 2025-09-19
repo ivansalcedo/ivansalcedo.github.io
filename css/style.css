@@ -2456,9 +2456,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .mt-0 {
   margin-top: 0px;
 }
-.mt-10 {
-  margin-top: 2.5rem;
-}
 .mt-12 {
   margin-top: 3rem;
 }
@@ -3667,11 +3664,6 @@ input#nav-toggle:checked ~ #nav-menu {
   .lg\:col-8 {
     flex: 0 0 auto;
     width: 66.66666666666667%;
-  }
-
-  .lg\:col-10 {
-    flex: 0 0 auto;
-    width: 83.33333333333334%;
   }
 
   .lg\:col-11 {
