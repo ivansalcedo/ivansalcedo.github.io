@@ -1,0 +1,1 @@
+const e=[{name:"Profile",url:"/"},{name:"Technologies",url:"/skills"},{name:"Courses",url:"/courses"}],l=[{name:"Elements",url:"/elements"},{name:"Privacy Policy",url:"/privacy-policy"}],n={main:e,footer:l};export{n as default,l as footer,e as main};
